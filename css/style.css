@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk gambar-gambar di section new */
+.new img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Scheherazade';
+}
+.navbar-brand:hover {
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+.nav-link:hover{
+    color: #000;
+}
+
+/* Navbar toggler styling */
+.navbar-toggler {
+    border: 2px solid rgb(11, 166, 14);
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: rgb(11, 166, 14);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(11, 166, 14)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 0.5rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .form-search {
+        margin-top: 1rem;
+    }
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+    border: 2px solid rgb(11, 166, 14)
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(11, 166, 14);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.main{
+    background: url(../asset/evie-s-nH4pFR516ZQ-unsplash.webp)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: forestgreen;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.btn1:hover{
+    background-color: green;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.deco{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../asset/annie-spratt-JLpDkdcuceI-unsplash.webp)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.deco h1{
+    font-family: "Lobster", sans-serif;
+}
+/* Contact section styling */
+.contact-info h6 {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.contact-info p {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+.contact .form-control {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+}
+.footer{
+    background-color: #000;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color:white;
+    color: black;
+    font-weight: 700;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.btn2:hover{
+    background-color: green;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.footer p{
+    margin: 0;
+}
+.footer .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.footer .fab {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+}
+.footer .fab:hover {
+    color: rgb(11, 166, 14);
+}
